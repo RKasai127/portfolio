@@ -18,20 +18,40 @@ import { siteConfig } from "../config";
         </div>
       </div>
 
-      <div class="lg:col-span-8 space-y-8">
+    <div class="lg:col-span-8 space-y-8">
         <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600">
           {siteConfig.aboutMe}
         </p>
 
-        <div class="pt-4">
-          <div class="flex flex-wrap gap-3">
-            {
-              siteConfig.skills.map((skill) => (
-                <span class="px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-100 text-gray-800 rounded-full text-sm sm:text-base md:text-lg font-medium hover:bg-gray-200 transition-colors duration-200">
-                  {skill}
-                </span>
-              ))
-            }
+        <div class="pt-4 space-y-6">
+          <div>
+            <h3 class="text-sm sm:text-base font-semibold text-gray-500 uppercase tracking-wide mb-3">
+              Proficient
+            </h3>
+            <div class="flex flex-wrap gap-3">
+              {
+                siteConfig.skills.proficient.map((skill) => (
+                  <span class="px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-100 text-gray-800 rounded-full text-sm sm:text-base md:text-lg font-medium hover:bg-gray-200 transition-colors duration-200">
+                    {skill}
+                  </span>
+                ))
+              }
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-sm sm:text-base font-semibold text-gray-500 uppercase tracking-wide mb-3">
+              Familiar
+            </h3>
+            <div class="flex flex-wrap gap-3">
+              {
+                siteConfig.skills.familiar.map((skill) => (
+                  <span class="px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-50 text-gray-600 rounded-full text-sm sm:text-base md:text-lg font-medium border border-gray-200 hover:bg-gray-100 transition-colors duration-200">
+                    {skill}
+                  </span>
+                ))
+              }
+            </div>
           </div>
         </div>
       </div>
