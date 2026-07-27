@@ -26,7 +26,7 @@ export const siteConfig = {
   projects: [] as Project[],
   experience: [
     {
-      company: "上場企業の某SIer",
+      company: "上場企業のSIer",
       title: "Software Engineer/PL(サブリーダ)",
       dateRange: "2025/3 - 現在",
       bullets: [
