@@ -5,3 +5,10 @@ export interface Socials {
   linkedin?: string;
   twitter?: string;
 }
+
+export interface Project {
+  name?: string;
+  link?: string;
+  description?: string;
+  skills?: string[];
+}

@@ -3,7 +3,7 @@ import { siteConfig } from "../config";
 
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
-const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+const hasCertifications = siteConfig.certifications && siteConfig.certifications.length > 0;
 ---
 
 <header
@@ -45,13 +45,13 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         )
       }
       {
-        hasEducation && (
+        hasCertifications && (
           <li>
             <a
               href="#education"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Education
+              Certifications
             </a>
           </li>
         )

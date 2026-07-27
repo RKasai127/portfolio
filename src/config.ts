@@ -1,17 +1,17 @@
-import type { Socials } from "./types";
+import type { Project, Socials } from "./types";
 
 export const siteConfig = {
-  name: "Sakurai",
+  name: "RyoKasai",
   title: "Software Engineer",
-  description: "Portfolio website of Sakurai",
+  description: "Portfolio website of Kasai",
   accentColor: "#1d4ed8",
   social: {
     email: "your-email@example.com",
     qiita: "https://qiita.com/Yom-Sakurai",
-    github: "https://github.com/YomSakurai/",
+    github: "https://github.com/RKasai127",
   } as Socials,
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "バックエンドエンジニアとして5年間、主にToC向け会員制サイトの開発・運用保守に従事してきました。マイページなど個人情報を扱う領域のAPI開発を中心に、数多くの機能実装を手がけています。技術を使って世の中をより良く、便利にしていくこと、ビジネスにインパクトを出していくことを大切にしています。技術力とチームをまとめる力の両面から、価値を出せるエンジニアになることを目指しています。",
   skills: {
     proficient: [
       "Python",
@@ -19,78 +19,41 @@ export const siteConfig = {
       "Next.js",
       "Docker",
       "Heroku",
-      "PostGresql",
+      "PostgreSQL",
     ],
     familiar: ["AWS", "Astro", "Auth0", "Salesforce", "MuleSoft"],
   },
-  projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
+  projects: [] as Project[],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "上場企業の某SIer",
+      title: "Software Engineer/PL(サブリーダ)",
+      dateRange: "2025/3 - 現在",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "会員制サイト(ToC)の新規機能開発・運用保守をバックエンドエンジニアとして参画",
+        "開発のサブリーダとしてファシリテーションや進捗管理を担当",
+        "新人エンジニアのメンターなどの教育も担当",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "小規模SIer",
+      title: "Software Engineer",
+      dateRange: "2021/4 - 2025/3",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "喫煙者向け会員制サイトの新規機能開発・新基盤の移行プロジェクト・運用保守を担当",
+        "建築コンサルタント会社向けの管理画面(フロント・バックエンドの両方を担当)の新規開発・運用保守を担当",
+        "バス会社向けの新規管理画面構築をバックエンドエンジニアとしてAPI開発を担当",
       ],
     },
   ],
-  education: [
+  certifications: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
+      name: "University Name",
       dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+      name: "University Name",
+      dateRange: "2014 - 2018",
     },
   ],
 };
