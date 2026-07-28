@@ -1,6 +1,6 @@
-import type { Project, Socials } from "./types";
+import type { SiteConfig } from "./types";
 
-export const siteConfig = {
+export const siteConfig: SiteConfig = {
   name: "RyoKasai",
   title: "Software Engineer",
   description: "Portfolio website of Kasai",
@@ -8,7 +8,7 @@ export const siteConfig = {
   social: {
     qiita: "https://qiita.com/RK127",
     github: "https://github.com/RKasai127",
-  } as Socials,
+  },
   aboutMe:
     "バックエンドエンジニアとして5年間、会員制サイトのAPI開発に従事してきました。住所変更・退会処理や、年齢確認のための外部サービス連携など、個人情報を扱う機能を中心に担当し、会員数200万人規模のサービスから現在の100万人規模のサービスまで携わっています。開発チームのサブリーダーとしてレビューや進捗管理を担いながら、メンバーが前向きに取り組めるよう雑談を通じたコミュニケーションも大切にしています。今後は応答速度改善や大量リクエストを支える設計など、パフォーマンス面での価値提供に軸足を置きつつ、裁量を持って技術的な改善に取り組める環境で、インフラやフロントエンド領域などに広げていきたいと考えています。ゆくゆくは、技術力でビジネスにインパクトを出せる・世の中をより良くできるようなエンジニアになることが目標です。",
   skills: {
@@ -22,7 +22,7 @@ export const siteConfig = {
     ],
     familiar: ["AWS", "Astro", "Auth0", "Salesforce", "MuleSoft"],
   },
-  projects: [] as Project[],
+  projects: [],
   experience: [
     {
       company: "上場企業のSIer",
