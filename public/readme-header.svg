@@ -1,0 +1,33 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f7f9fc"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+
+  <!-- Subtle accent line top -->
+  <rect x="0" y="0" width="1200" height="6" fill="#3B82F6"/>
+
+  <!-- Minimal decorative accent shapes -->
+  <circle cx="1080" cy="70" r="4" fill="#3B82F6" opacity="0.5"/>
+  <circle cx="1110" cy="90" r="6" fill="#3B82F6" opacity="0.3"/>
+  <circle cx="100" cy="230" r="5" fill="#3B82F6" opacity="0.35"/>
+  <circle cx="130" cy="250" r="3" fill="#3B82F6" opacity="0.5"/>
+
+  <!-- Thin accent line under text -->
+  <line x1="560" y1="185" x2="640" y2="185" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Main text -->
+  <text x="600" y="160" font-family="'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="600" fill="#1f2937" text-anchor="middle" letter-spacing="1">
+    Welcome to my Portfolio
+  </text>
+
+  <!-- Subtext -->
+  <text x="600" y="205" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#9ca3af" text-anchor="middle" letter-spacing="1.5">
+    Thanks for Visiting
+  </text>
+</svg>
