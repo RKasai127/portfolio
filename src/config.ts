@@ -20,7 +20,7 @@ export const siteConfig: SiteConfig = {
       "Heroku",
       "PostgreSQL",
     ],
-    familiar: ["AWS", "Astro", "Auth0", "Salesforce", "MuleSoft"],
+    familiar: ["AWS", "Cloudflare", "Astro", "Auth0", "Salesforce", "MuleSoft"],
   },
   projects: [],
   experience: [
