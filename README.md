@@ -8,6 +8,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38BDF8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
+[![Format Check](https://github.com/RKasai127/portfolio/actions/workflows/format-check.yml/badge.svg)](https://github.com/YomSakurai/portfolio/actions/workflows/format-check.yml)
 
 </div>
 
@@ -23,8 +24,6 @@
 ```bash
 npm install
 npm run dev
-npm run build
-npm run preview
 ```
 
 ## Project Structure
