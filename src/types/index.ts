@@ -22,7 +22,7 @@ export interface Socials {
 export interface Project {
   name?: string;
   link?: string;
-  description?: string;
+  bullets?: string[];
   skills?: string[];
 }
 

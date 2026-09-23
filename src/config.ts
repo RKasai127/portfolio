@@ -22,7 +22,28 @@ export const siteConfig: SiteConfig = {
     ],
     familiar: ["AWS", "Cloudflare", "Astro", "Auth0", "Salesforce", "MuleSoft"],
   },
-  projects: [],
+  projects: [
+    {
+      name: "vscode-autoconfig",
+      link: "https://github.com/RKasai127/vscode-autoconfig",
+      bullets: [
+        "プロジェクトのpackage.jsonやrequirements.txtなどのマニフェストファイルを解析",
+        ".vscode/settings.jsonとextensions.jsonの推奨設定を自動生成するCLIツール",
+        "npmパッケージとして公開",
+      ],
+      skills: ["TypeScript", "Node.js"],
+    },
+    {
+      name: "xlreset",
+      link: "https://github.com/RKasai127/xlreset",
+      bullets: [
+        "Excelファイルの各シートの表示位置をA1・ズーム100%にリセットする依存0のCLIツール",
+        "開いた際にスクロール位置やズームが崩れたファイルを一括で整える用途で利用可能",
+        "pipxでインストール可能なPython製パッケージとして公開",
+      ],
+      skills: ["Python"],
+    },
+  ],
   experience: [
     {
       company: "上場企業のSIer",
