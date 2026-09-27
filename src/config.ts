@@ -14,13 +14,21 @@ export const siteConfig: SiteConfig = {
   skills: {
     proficient: [
       "Python",
-      "AngularJS",
-      "Next.js",
-      "Docker",
+      "TypeScript",
+      "FastAPI",
+      "Angular",
       "Heroku",
-      "PostgreSQL",
+      "Docker",
     ],
-    familiar: ["AWS", "Cloudflare", "Astro", "Auth0", "Salesforce", "MuleSoft"],
+    familiar: [
+      "AWS",
+      "Astro",
+      "Auth0",
+      "Next.js",
+      "Cloudflare",
+      "Salesforce",
+      "MuleSoft",
+    ],
   },
   projects: [
     {
