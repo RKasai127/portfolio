@@ -56,7 +56,7 @@ export const siteConfig: SiteConfig = {
     {
       company: "上場企業のSIer",
       title: "Software Engineer/PL(サブリーダ)",
-      dateRange: "2025/3 - 現在",
+      dateRange: "2025/3 - 2026/12",
       bullets: [
         "会員制ToCサイトのバックエンド開発を担当。開発チームのサブリーダーとして定例ファシリテーション・進捗管理・顧客折衝を推進",
         "PM休職時に約1ヶ月間PLを代行。対面での仕様説明会を提案・実施し、スケジュール遅延0件でプロジェクトを運営",
